@@ -1,0 +1,108 @@
+/* MAIN CONTAINER */
+.mainContainer    {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      margin: 4rem 16rem;
+
+
+/*       border: solid 1px #000; */
+}
+
+/* SEARCH FORM */
+.searchContainer  {
+      margin-top: .75rem;
+      margin-bottom: 1.5rem;
+}
+
+.searchBar  {
+      width: 16em;
+      height: 2rem;
+      padding-left: 12px;
+      border-radius: 6px;
+      border: none;
+      box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.09);
+}
+
+/* PUSH FORM */
+.addContainer     {
+      display: flex;
+      margin-bottom: 1.5rem;
+}
+
+.brandBar   {
+      width: 16em;
+      height: 2rem;
+      margin-right: 1rem;
+      padding-left: 12px;
+      border-radius: 8px;
+      border: none;
+      box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.09);
+}
+
+.modelBar   {
+      width: 16em;
+      height: 2rem;
+      margin-right: 1rem;
+      padding-left: 12px;
+      border-radius: 8px;
+      border: none;
+      box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.09);
+}
+
+.addBtn     {
+  background-color: #04AA6D;
+  text-transform: uppercase;
+  border: none;
+  color: white;
+  padding-right: 16px;
+  padding-left: 16px;
+  text-decoration: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* VEHICLE CONTAINER */
+.vehicleContainer {
+      display: flex;
+      justify-content: space-between;
+      width: 600px;
+      align-items: center;
+      border-radius: 10px;
+      border: none;
+      box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.09);
+      margin-bottom: 1.5rem;
+}
+
+.brand      {
+      margin-left: 2rem;
+      margin-right: 2rem;
+      color: #363636;
+      font-weight: 500;
+      font-size: 18px;
+      text-transform: uppercase;
+}
+
+.model      {
+      position: absolute;
+      margin-left: 19rem;
+      margin-right: 2rem;
+      color: #363636;
+      font-weight: 500;
+      font-size: 18px;
+}
+
+.trash      {
+      margin-right: 2rem;
+      margin-left: 2rem;
+      background-color: #ff0303da;
+      font-weight: bold;
+      text-transform: uppercase;
+      border: none;
+      color: white;
+      padding: 6px 8px;
+      text-decoration: none;
+      border-radius: 4px;
+      cursor: pointer;
+}

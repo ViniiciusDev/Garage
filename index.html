@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="public/css/style.css" />
+    <title>Garage</title>
+  </head>
+  <body>
+    <main class="mainContainer">
+      <h1>Auto Garage</h1>
+      <form class="searchContainer" id="searchForm">
+        <input
+          class="searchBar"
+          id="searchBtn"
+          type="search"
+          placeholder="Cerca"
+        />
+      </form>
+      <form class="addContainer" id="pushForm">
+        <input class="brandBar" id="brandAdd" type="text" placeholder="Brand" />
+        <input class="modelBar" id="modelAdd" type="text" placeholder="Model" />
+        <input class="addBtn" id="addBtn" type="submit" value="Aggiungi" />
+      </form>
+      <div id="garageContainer">
+        <h2>Macchine nel Garage</h2>
+      </div>
+    </main>
+    <script src="public/js/index.js"></script>
+  </body>
+</html>
