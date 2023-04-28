@@ -1,10 +1,10 @@
 /* Creare elemento nel HTML */
-
 let pushForm = document.getElementById('pushForm');
 let brandAdd = document.getElementById('brandAdd');
 let modelAdd = document.getElementById('modelAdd');
 let garageContainer = document.getElementById('garageContainer');
 
+// Evento di invio dei dati raccolti nel input.
 pushForm.addEventListener('submit', (event) => {
       event.preventDefault();
 
@@ -33,4 +33,21 @@ pushForm.addEventListener('submit', (event) => {
 });
 
 /* Search Car */
+
+function searchFunction()     {
+      let searchBtn = document.getElementById('searchBtn');
+      let filter = searchBtn.value.toLowerCase();  // Prende i valori del btn
+      let cars = document.getElementsByClassName('vehicleContainer');
+
+// Ciclo for per cercare il car dentro la lista
+      for (let i = 0; i < cars.length; i++)     {
+            if (cars[i].innerText.toLowerCase().includes(filter)) {
+                  cars[i].style.display = 'flex';
+            } else {
+                  cars[i].style.display = 'none';
+            }
+      }
+}
+
+
 
